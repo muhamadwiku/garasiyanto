@@ -9,6 +9,13 @@ main {
   max-height: 100vh;
 }
 
+iframe {
+  width: 100%;
+}
+
+.iframe_container {
+  padding-right: 1rem;
+}
 
 p {
   font-family: "Roboto", sans-serif;
@@ -201,7 +208,7 @@ li {
   }
   
   .title {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .text_center {
