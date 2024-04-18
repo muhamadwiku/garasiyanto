@@ -10,6 +10,14 @@ main {
 }
 
 
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+
 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -126,7 +134,7 @@ li {
 }
 
 .text_md {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 500;
 }
 
@@ -141,6 +149,14 @@ li {
 @media (max-width: 980px) {
   main {
     height: none;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .card_map {
+    width: fit-content;
   }
 
   .header {
@@ -180,7 +196,7 @@ li {
   .flex {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: inherit;
     justify-content: center;
   }
   
